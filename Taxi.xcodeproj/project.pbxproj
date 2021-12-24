@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4EC8A6276D125A0002F83F /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */; };
+		4D4EC8A7276D125A0002F83F /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89C276D12580002F83F /* Lato-Regular.ttf */; };
+		4D4EC8A8276D125A0002F83F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89D276D12580002F83F /* Lato-Light.ttf */; };
+		4D4EC8A9276D125A0002F83F /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */; };
+		4D4EC8AA276D125A0002F83F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89F276D12590002F83F /* Lato-Bold.ttf */; };
+		4D4EC8AB276D125A0002F83F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */; };
+		4D4EC8AC276D125A0002F83F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */; };
+		4D4EC8AE276D125A0002F83F /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A3276D12590002F83F /* Lato-Black.ttf */; };
+		4D4EC8AF276D125A0002F83F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */; };
+		4D4EC8B0276D125A0002F83F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */; };
+		4D4EC8B2276D1C650002F83F /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B1276D1C650002F83F /* HighlightButton.swift */; };
+		4D4EC8B6276D1FEA0002F83F /* LocationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */; };
+		4D4EC8BA276D27E80002F83F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B9276D27E80002F83F /* LocationManager.swift */; };
+		4D4EC8BC276D28280002F83F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BB276D28280002F83F /* MainVC.swift */; };
+		4D4EC8BE276D2AFA0002F83F /* Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BD276D2AFA0002F83F /* Google.swift */; };
+		4D4EC8C0276D2C620002F83F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BF276D2C610002F83F /* Constant.swift */; };
+		4D4EC8C2276D2FE10002F83F /* AddressDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8C1276D2FE10002F83F /* AddressDM.swift */; };
+		4D74CA48276E744B004E27EB /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA46276E744B004E27EB /* SideBarVC.swift */; };
+		4D74CA49276E744B004E27EB /* SideBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA47276E744B004E27EB /* SideBarVC.xib */; };
+		4D74CA4B276EC4B3004E27EB /* TripHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */; };
+		4D74CA4F276EC637004E27EB /* HIstoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */; };
+		4D74CA50276EC637004E27EB /* HIstoryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */; };
+		4D74CA53276F2BFA004E27EB /* TripDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */; };
+		4D74CA54276F2BFA004E27EB /* TripDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */; };
 		4DA9CB9D276C2A2800EB8C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CB9C276C2A2800EB8C61 /* AppDelegate.swift */; };
-		4DA9CB9F276C2A2800EB8C61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CB9E276C2A2800EB8C61 /* SceneDelegate.swift */; };
-		4DA9CBA1276C2A2800EB8C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CBA0276C2A2800EB8C61 /* ViewController.swift */; };
-		4DA9CBA4276C2A2800EB8C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBA2276C2A2800EB8C61 /* Main.storyboard */; };
 		4DA9CBA6276C2A2A00EB8C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBA5276C2A2A00EB8C61 /* Assets.xcassets */; };
 		4DA9CBA9276C2A2A00EB8C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBA7276C2A2A00EB8C61 /* LaunchScreen.storyboard */; };
+		4DA9CBB3276C2A9000EB8C61 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */; };
+		4DA9CBB9276C3D4100EB8C61 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CBB8276C3D4000EB8C61 /* Extension.swift */; };
+		4DDAB27727756A30004ADF2C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A2276D12590002F83F /* OFL.txt */; };
+		4DFA23A22773662E00B01D2F /* TripDetailChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */; };
+		4DFA23A32773662E00B01D2F /* TripDetailChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */; };
+		DDA385FE1E899EE30C6A8617 /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.release.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.release.xcconfig"; sourceTree = "<group>"; };
+		4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D4EC89C276D12580002F83F /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		4D4EC89D276D12580002F83F /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D4EC89F276D12590002F83F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4D4EC8A2276D12590002F83F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; usesTabs = 0; };
+		4D4EC8A3276D12590002F83F /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		4D4EC8B1276D1C650002F83F /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDM.swift; sourceTree = "<group>"; };
+		4D4EC8B9276D27E80002F83F /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4D4EC8BB276D28280002F83F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4D4EC8BD276D2AFA0002F83F /* Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google.swift; sourceTree = "<group>"; };
+		4D4EC8BF276D2C610002F83F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4D4EC8C1276D2FE10002F83F /* AddressDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDM.swift; sourceTree = "<group>"; };
+		4D74CA46276E744B004E27EB /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		4D74CA47276E744B004E27EB /* SideBarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarVC.xib; sourceTree = "<group>"; };
+		4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryVC.swift; sourceTree = "<group>"; };
+		4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIstoryTVC.swift; sourceTree = "<group>"; };
+		4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HIstoryTVC.xib; sourceTree = "<group>"; };
+		4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailVC.swift; sourceTree = "<group>"; };
+		4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailVC.xib; sourceTree = "<group>"; };
 		4DA9CB99276C2A2800EB8C61 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA9CB9C276C2A2800EB8C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DA9CB9E276C2A2800EB8C61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DA9CBA0276C2A2800EB8C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DA9CBA3276C2A2800EB8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DA9CBA5276C2A2A00EB8C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA9CBA8276C2A2A00EB8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA9CBAA276C2A2A00EB8C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		4DA9CBB8276C3D4000EB8C61 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailChildVC.swift; sourceTree = "<group>"; };
+		4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailChildVC.xib; sourceTree = "<group>"; };
+		54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,19 +87,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA385FE1E899EE30C6A8617 /* Pods_Taxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0328C8EFE5E9D1178B72AA48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */,
+				13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D4EC89A276D124B0002F83F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EC8A3276D12590002F83F /* Lato-Black.ttf */,
+				4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */,
+				4D4EC89F276D12590002F83F /* Lato-Bold.ttf */,
+				4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */,
+				4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */,
+				4D4EC89D276D12580002F83F /* Lato-Light.ttf */,
+				4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */,
+				4D4EC89C276D12580002F83F /* Lato-Regular.ttf */,
+				4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */,
+				4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */,
+				4D4EC8A2276D12590002F83F /* OFL.txt */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		4D74CA4C276EC619004E27EB /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */,
+				4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4DA9CB90276C2A2800EB8C61 = {
 			isa = PBXGroup;
 			children = (
 				4DA9CB9B276C2A2800EB8C61 /* Taxi */,
 				4DA9CB9A276C2A2800EB8C61 /* Products */,
+				0328C8EFE5E9D1178B72AA48 /* Pods */,
+				D335B02C35628D4E43FC9753 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		4DA9CB9A276C2A2800EB8C61 /* Products */ = {
 			isa = PBXGroup;
@@ -57,14 +154,69 @@
 			isa = PBXGroup;
 			children = (
 				4DA9CB9C276C2A2800EB8C61 /* AppDelegate.swift */,
-				4DA9CB9E276C2A2800EB8C61 /* SceneDelegate.swift */,
-				4DA9CBA0276C2A2800EB8C61 /* ViewController.swift */,
-				4DA9CBA2276C2A2800EB8C61 /* Main.storyboard */,
+				4DA9CBB7276C3D2E00EB8C61 /* Hepler */,
+				4DA9CBB4276C2A9600EB8C61 /* Model */,
+				4DA9CBB5276C2AA000EB8C61 /* Views */,
+				4DA9CBB6276C2AA900EB8C61 /* Controllers */,
 				4DA9CBA5276C2A2A00EB8C61 /* Assets.xcassets */,
 				4DA9CBA7276C2A2A00EB8C61 /* LaunchScreen.storyboard */,
 				4DA9CBAA276C2A2A00EB8C61 /* Info.plist */,
 			);
 			path = Taxi;
+			sourceTree = "<group>";
+		};
+		4DA9CBB4276C2A9600EB8C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */,
+				4D4EC8C1276D2FE10002F83F /* AddressDM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DA9CBB5276C2AA000EB8C61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DA9CBB6276C2AA900EB8C61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EC8BB276D28280002F83F /* MainVC.swift */,
+				4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */,
+				4D74CA46276E744B004E27EB /* SideBarVC.swift */,
+				4D74CA47276E744B004E27EB /* SideBarVC.xib */,
+				4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */,
+				4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */,
+				4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */,
+				4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */,
+				4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */,
+				4D74CA4C276EC619004E27EB /* TVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DA9CBB7276C3D2E00EB8C61 /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EC89A276D124B0002F83F /* Font */,
+				4D4EC8B1276D1C650002F83F /* HighlightButton.swift */,
+				4D4EC8BF276D2C610002F83F /* Constant.swift */,
+				4DA9CBB8276C3D4000EB8C61 /* Extension.swift */,
+				4D4EC8BD276D2AFA0002F83F /* Google.swift */,
+				4D4EC8B9276D27E80002F83F /* LocationManager.swift */,
+			);
+			path = Hepler;
+			sourceTree = "<group>";
+		};
+		D335B02C35628D4E43FC9753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA9CBAD276C2A2A00EB8C61 /* Build configuration list for PBXNativeTarget "Taxi" */;
 			buildPhases = (
+				70F88530A5CD74DA864C27B6 /* [CP] Check Pods Manifest.lock */,
 				4DA9CB95276C2A2800EB8C61 /* Sources */,
 				4DA9CB96276C2A2800EB8C61 /* Frameworks */,
 				4DA9CB97276C2A2800EB8C61 /* Resources */,
+				3F4F1F384B3C019D777B66EC /* [CP] Copy Pods Resources */,
+				2202CD1BC5A6D26762764087 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +280,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4EC8A6276D125A0002F83F /* Lato-BlackItalic.ttf in Resources */,
+				4DA9CBB3276C2A9000EB8C61 /* MainVC.xib in Resources */,
+				4D74CA54276F2BFA004E27EB /* TripDetailVC.xib in Resources */,
+				4D4EC8A7276D125A0002F83F /* Lato-Regular.ttf in Resources */,
+				4D4EC8AE276D125A0002F83F /* Lato-Black.ttf in Resources */,
+				4DFA23A32773662E00B01D2F /* TripDetailChildVC.xib in Resources */,
+				4D4EC8A8276D125A0002F83F /* Lato-Light.ttf in Resources */,
 				4DA9CBA9276C2A2A00EB8C61 /* LaunchScreen.storyboard in Resources */,
+				4D4EC8A9276D125A0002F83F /* Lato-BoldItalic.ttf in Resources */,
 				4DA9CBA6276C2A2A00EB8C61 /* Assets.xcassets in Resources */,
-				4DA9CBA4276C2A2800EB8C61 /* Main.storyboard in Resources */,
+				4D4EC8B0276D125A0002F83F /* Lato-Thin.ttf in Resources */,
+				4D4EC8AC276D125A0002F83F /* Lato-ThinItalic.ttf in Resources */,
+				4DDAB27727756A30004ADF2C /* OFL.txt in Resources */,
+				4D4EC8AB276D125A0002F83F /* Lato-Italic.ttf in Resources */,
+				4D4EC8AA276D125A0002F83F /* Lato-Bold.ttf in Resources */,
+				4D74CA49276E744B004E27EB /* SideBarVC.xib in Resources */,
+				4D74CA50276EC637004E27EB /* HIstoryTVC.xib in Resources */,
+				4D4EC8AF276D125A0002F83F /* Lato-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2202CD1BC5A6D26762764087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4F1F384B3C019D777B66EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F88530A5CD74DA864C27B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DA9CB95276C2A2800EB8C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA9CBA1276C2A2800EB8C61 /* ViewController.swift in Sources */,
+				4D74CA53276F2BFA004E27EB /* TripDetailVC.swift in Sources */,
+				4D4EC8C2276D2FE10002F83F /* AddressDM.swift in Sources */,
+				4D4EC8B2276D1C650002F83F /* HighlightButton.swift in Sources */,
+				4D74CA4F276EC637004E27EB /* HIstoryTVC.swift in Sources */,
+				4DFA23A22773662E00B01D2F /* TripDetailChildVC.swift in Sources */,
+				4D4EC8C0276D2C620002F83F /* Constant.swift in Sources */,
+				4D4EC8BC276D28280002F83F /* MainVC.swift in Sources */,
+				4DA9CBB9276C3D4100EB8C61 /* Extension.swift in Sources */,
+				4D74CA48276E744B004E27EB /* SideBarVC.swift in Sources */,
+				4D4EC8BA276D27E80002F83F /* LocationManager.swift in Sources */,
+				4D4EC8B6276D1FEA0002F83F /* LocationDM.swift in Sources */,
+				4D74CA4B276EC4B3004E27EB /* TripHistoryVC.swift in Sources */,
+				4D4EC8BE276D2AFA0002F83F /* Google.swift in Sources */,
 				4DA9CB9D276C2A2800EB8C61 /* AppDelegate.swift in Sources */,
-				4DA9CB9F276C2A2800EB8C61 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DA9CBA2276C2A2800EB8C61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DA9CBA3276C2A2800EB8C61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DA9CBA7276C2A2A00EB8C61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,16 +516,24 @@
 		};
 		4DA9CBAE276C2A2A00EB8C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taxi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to see your location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,22 +545,30 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4DA9CBAF276C2A2A00EB8C61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taxi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow access to see your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to see your location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
