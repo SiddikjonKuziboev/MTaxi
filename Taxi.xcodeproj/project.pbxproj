@@ -130,11 +130,18 @@
 			path = Lato;
 			sourceTree = "<group>";
 		};
+		4D43FD57277903BD0046B43B /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D74CA4E276EC637004E27EB /* TripHistoryTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4D74CA4C276EC619004E27EB /* TVC */ = {
 			isa = PBXGroup;
 			children = (
 				4D74CA4D276EC637004E27EB /* TripHistoryTVC.swift */,
-				4D74CA4E276EC637004E27EB /* TripHistoryTVC.xib */,
 			);
 			path = TVC;
 			sourceTree = "<group>";
@@ -185,6 +192,11 @@
 		4DA9CBB5276C2AA000EB8C61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */,
+				4D74CA47276E744B004E27EB /* SideBarVC.xib */,
+				4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */,
+				4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */,
+				4D43FD57277903BD0046B43B /* TVC */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,14 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				4D4EC8BB276D28280002F83F /* MainVC.swift */,
-				4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */,
 				4D74CA46276E744B004E27EB /* SideBarVC.swift */,
-				4D74CA47276E744B004E27EB /* SideBarVC.xib */,
 				4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */,
 				4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */,
-				4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */,
 				4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */,
-				4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */,
 				4D74CA4C276EC619004E27EB /* TVC */,
 			);
 			path = Controllers;
