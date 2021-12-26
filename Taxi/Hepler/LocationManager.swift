@@ -1,14 +1,13 @@
 //
 //  LocationManager.swift
-//  
+//  Taxi
 //
-//  Created by Kuziboev Siddikjon on 12/18/21.
+//  Created by Kuziboev Siddikjon on 12/17/21.
 //
 
 import UIKit
 import CoreLocation
 
-///LOCATION MANAGER
 public typealias LM = LocationManager
 
 public class LocationManager: NSObject {
@@ -17,9 +16,7 @@ public class LocationManager: NSObject {
     private var presentedVC: UIViewController!
     
     private var locationManager: CLLocationManager!
-    
-    private var currentLocation: LocationDM?
-    
+        
     private var locationCallBack: ((_ location: LocationDM)->Void)?
     
     override init() {
@@ -27,17 +24,18 @@ public class LocationManager: NSObject {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+        locationManager.pausesLocationUpdatesAutomatically = true
+        updateUserCurrentLocation()
     }
     
     
-
+    
     func getUserCurrentLocation(fromVC: UIViewController, completion: @escaping (_ location: LocationDM)->Void) {
         self.presentedVC = fromVC
         self.locationCallBack = completion
         startUpdatingUserLocation()
     }
     
-    ///This will trigger the callback of getUserCurrentLocation
     func updateUserCurrentLocation() {
         startUpdatingUserLocation()
     }
@@ -49,13 +47,13 @@ public class LocationManager: NSObject {
     
     
     private func startUpdatingUserLocation() {
+        
         if CLLocationManager.locationServicesEnabled() {
-            locationManager.requestLocation()
-            
             let status: CLAuthorizationStatus = CLLocationManager.authorizationStatus()
+            
             switch status {
             case .authorizedAlways, .authorizedWhenInUse:
-                print("KETTTI")
+                
                 locationManager.startUpdatingLocation()
             case .denied, .restricted:
                 openSettingsAlert()
@@ -64,7 +62,6 @@ public class LocationManager: NSObject {
                 locationManager.requestWhenInUseAuthorization()
             }
         } else {
-            print("😍😍😍😍")
             locationManager.requestAlwaysAuthorization()
         }
     }
@@ -103,11 +100,8 @@ extension LocationManager: CLLocationManagerDelegate {
     }
     
     
-    
-    
-    
     public func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("Error 😍😍\(error)")
+        print("Error \(error)")
         locationManager.stopUpdatingLocation()
     }
     
@@ -120,6 +114,5 @@ extension LocationManager: CLLocationManagerDelegate {
             locationManager.requestAlwaysAuthorization()
         }
     }
-  
+    
 }
-

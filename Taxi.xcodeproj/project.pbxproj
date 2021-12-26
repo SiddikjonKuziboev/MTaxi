@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D4EC8A6276D125A0002F83F /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */; };
-		4D4EC8A7276D125A0002F83F /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89C276D12580002F83F /* Lato-Regular.ttf */; };
-		4D4EC8A8276D125A0002F83F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89D276D12580002F83F /* Lato-Light.ttf */; };
-		4D4EC8A9276D125A0002F83F /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */; };
-		4D4EC8AA276D125A0002F83F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC89F276D12590002F83F /* Lato-Bold.ttf */; };
-		4D4EC8AB276D125A0002F83F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */; };
-		4D4EC8AC276D125A0002F83F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */; };
-		4D4EC8AE276D125A0002F83F /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A3276D12590002F83F /* Lato-Black.ttf */; };
-		4D4EC8AF276D125A0002F83F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */; };
-		4D4EC8B0276D125A0002F83F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */; };
+		2388FFD66B509B138E88004B /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7315D42EFE9C9FFADE7C6BAD /* Pods_Taxi.framework */; };
+		4D3EA2E7277799D400CC8BDB /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2DC277799D400CC8BDB /* Lato-Italic.ttf */; };
+		4D3EA2E8277799D400CC8BDB /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2DD277799D400CC8BDB /* Lato-LightItalic.ttf */; };
+		4D3EA2E9277799D400CC8BDB /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2DE277799D400CC8BDB /* Lato-Thin.ttf */; };
+		4D3EA2EA277799D400CC8BDB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2DF277799D400CC8BDB /* Lato-Bold.ttf */; };
+		4D3EA2EB277799D400CC8BDB /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E0277799D400CC8BDB /* Lato-Black.ttf */; };
+		4D3EA2EC277799D400CC8BDB /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E1277799D400CC8BDB /* Lato-Regular.ttf */; };
+		4D3EA2ED277799D400CC8BDB /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E2277799D400CC8BDB /* Lato-BlackItalic.ttf */; };
+		4D3EA2EE277799D400CC8BDB /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E3277799D400CC8BDB /* OFL.txt */; };
+		4D3EA2EF277799D400CC8BDB /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E4277799D400CC8BDB /* Lato-BoldItalic.ttf */; };
+		4D3EA2F0277799D400CC8BDB /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E5277799D400CC8BDB /* Lato-Light.ttf */; };
+		4D3EA2F1277799D400CC8BDB /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2E6277799D400CC8BDB /* Lato-ThinItalic.ttf */; };
+		4D3EA2F527779A9400CC8BDB /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EA2F327779A9400CC8BDB /* Lato-Medium.ttf */; };
 		4D4EC8B2276D1C650002F83F /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B1276D1C650002F83F /* HighlightButton.swift */; };
 		4D4EC8B6276D1FEA0002F83F /* LocationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */; };
 		4D4EC8BA276D27E80002F83F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8B9276D27E80002F83F /* LocationManager.swift */; };
 		4D4EC8BC276D28280002F83F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BB276D28280002F83F /* MainVC.swift */; };
-		4D4EC8BE276D2AFA0002F83F /* Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BD276D2AFA0002F83F /* Google.swift */; };
 		4D4EC8C0276D2C620002F83F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8BF276D2C610002F83F /* Constant.swift */; };
-		4D4EC8C2276D2FE10002F83F /* AddressDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EC8C1276D2FE10002F83F /* AddressDM.swift */; };
 		4D74CA48276E744B004E27EB /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA46276E744B004E27EB /* SideBarVC.swift */; };
 		4D74CA49276E744B004E27EB /* SideBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA47276E744B004E27EB /* SideBarVC.xib */; };
 		4D74CA4B276EC4B3004E27EB /* TripHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */; };
-		4D74CA4F276EC637004E27EB /* HIstoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */; };
-		4D74CA50276EC637004E27EB /* HIstoryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */; };
+		4D74CA4F276EC637004E27EB /* TripHistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA4D276EC637004E27EB /* TripHistoryTVC.swift */; };
+		4D74CA50276EC637004E27EB /* TripHistoryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA4E276EC637004E27EB /* TripHistoryTVC.xib */; };
 		4D74CA53276F2BFA004E27EB /* TripDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */; };
 		4D74CA54276F2BFA004E27EB /* TripDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */; };
 		4DA9CB9D276C2A2800EB8C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CB9C276C2A2800EB8C61 /* AppDelegate.swift */; };
@@ -36,37 +37,35 @@
 		4DA9CBA9276C2A2A00EB8C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBA7276C2A2A00EB8C61 /* LaunchScreen.storyboard */; };
 		4DA9CBB3276C2A9000EB8C61 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9CBB1276C2A9000EB8C61 /* MainVC.xib */; };
 		4DA9CBB9276C3D4100EB8C61 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9CBB8276C3D4000EB8C61 /* Extension.swift */; };
-		4DDAB27727756A30004ADF2C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D4EC8A2276D12590002F83F /* OFL.txt */; };
 		4DFA23A22773662E00B01D2F /* TripDetailChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */; };
 		4DFA23A32773662E00B01D2F /* TripDetailChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */; };
-		DDA385FE1E899EE30C6A8617 /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.release.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.release.xcconfig"; sourceTree = "<group>"; };
-		4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
-		4D4EC89C276D12580002F83F /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
-		4D4EC89D276D12580002F83F /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
-		4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
-		4D4EC89F276D12590002F83F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
-		4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
-		4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
-		4D4EC8A2276D12590002F83F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; usesTabs = 0; };
-		4D4EC8A3276D12590002F83F /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
-		4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
-		4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		3A9C5436C6FC9103088317E6 /* Pods-Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.release.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.release.xcconfig"; sourceTree = "<group>"; };
+		4D00D1C027779E1300F403DE /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		4D3EA2DC277799D400CC8BDB /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4D3EA2DD277799D400CC8BDB /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D3EA2DE277799D400CC8BDB /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		4D3EA2DF277799D400CC8BDB /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		4D3EA2E0277799D400CC8BDB /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		4D3EA2E1277799D400CC8BDB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		4D3EA2E2277799D400CC8BDB /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D3EA2E3277799D400CC8BDB /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4D3EA2E4277799D400CC8BDB /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D3EA2E5277799D400CC8BDB /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		4D3EA2E6277799D400CC8BDB /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4D3EA2F327779A9400CC8BDB /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
 		4D4EC8B1276D1C650002F83F /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
 		4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDM.swift; sourceTree = "<group>"; };
 		4D4EC8B9276D27E80002F83F /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4D4EC8BB276D28280002F83F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		4D4EC8BD276D2AFA0002F83F /* Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google.swift; sourceTree = "<group>"; };
 		4D4EC8BF276D2C610002F83F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		4D4EC8C1276D2FE10002F83F /* AddressDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDM.swift; sourceTree = "<group>"; };
 		4D74CA46276E744B004E27EB /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		4D74CA47276E744B004E27EB /* SideBarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarVC.xib; sourceTree = "<group>"; };
 		4D74CA4A276EC4B3004E27EB /* TripHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryVC.swift; sourceTree = "<group>"; };
-		4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIstoryTVC.swift; sourceTree = "<group>"; };
-		4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HIstoryTVC.xib; sourceTree = "<group>"; };
+		4D74CA4D276EC637004E27EB /* TripHistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryTVC.swift; sourceTree = "<group>"; };
+		4D74CA4E276EC637004E27EB /* TripHistoryTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripHistoryTVC.xib; sourceTree = "<group>"; };
 		4D74CA51276F2BFA004E27EB /* TripDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailVC.swift; sourceTree = "<group>"; };
 		4D74CA52276F2BFA004E27EB /* TripDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailVC.xib; sourceTree = "<group>"; };
 		4DA9CB99276C2A2800EB8C61 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +77,8 @@
 		4DA9CBB8276C3D4000EB8C61 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		4DFA23A02773662E00B01D2F /* TripDetailChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailChildVC.swift; sourceTree = "<group>"; };
 		4DFA23A12773662E00B01D2F /* TripDetailChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailChildVC.xib; sourceTree = "<group>"; };
-		54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.debug.xcconfig"; sourceTree = "<group>"; };
-		7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56098BA7ADBA5871DF622AAD /* Pods-Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Taxi/Pods-Taxi.debug.xcconfig"; sourceTree = "<group>"; };
+		7315D42EFE9C9FFADE7C6BAD /* Pods_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA385FE1E899EE30C6A8617 /* Pods_Taxi.framework in Frameworks */,
+				2388FFD66B509B138E88004B /* Pods_Taxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,36 +96,45 @@
 		0328C8EFE5E9D1178B72AA48 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */,
-				13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */,
+				56098BA7ADBA5871DF622AAD /* Pods-Taxi.debug.xcconfig */,
+				3A9C5436C6FC9103088317E6 /* Pods-Taxi.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		4D4EC89A276D124B0002F83F /* Font */ = {
+		4161A0B841B783F776CCF2D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D4EC8A3276D12590002F83F /* Lato-Black.ttf */,
-				4D4EC89B276D12580002F83F /* Lato-BlackItalic.ttf */,
-				4D4EC89F276D12590002F83F /* Lato-Bold.ttf */,
-				4D4EC89E276D12590002F83F /* Lato-BoldItalic.ttf */,
-				4D4EC8A0276D12590002F83F /* Lato-Italic.ttf */,
-				4D4EC89D276D12580002F83F /* Lato-Light.ttf */,
-				4D4EC8A4276D12590002F83F /* Lato-LightItalic.ttf */,
-				4D4EC89C276D12580002F83F /* Lato-Regular.ttf */,
-				4D4EC8A5276D125A0002F83F /* Lato-Thin.ttf */,
-				4D4EC8A1276D12590002F83F /* Lato-ThinItalic.ttf */,
-				4D4EC8A2276D12590002F83F /* OFL.txt */,
+				7315D42EFE9C9FFADE7C6BAD /* Pods_Taxi.framework */,
 			);
-			path = Font;
+			name = Frameworks;
 			sourceTree = "<group>";
-			usesTabs = 0;
+		};
+		4D3EA2DB277799D400CC8BDB /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				4D3EA2DC277799D400CC8BDB /* Lato-Italic.ttf */,
+				4D3EA2DD277799D400CC8BDB /* Lato-LightItalic.ttf */,
+				4D3EA2DE277799D400CC8BDB /* Lato-Thin.ttf */,
+				4D3EA2DF277799D400CC8BDB /* Lato-Bold.ttf */,
+				4D3EA2E0277799D400CC8BDB /* Lato-Black.ttf */,
+				4D3EA2E1277799D400CC8BDB /* Lato-Regular.ttf */,
+				4D3EA2E2277799D400CC8BDB /* Lato-BlackItalic.ttf */,
+				4D3EA2E3277799D400CC8BDB /* OFL.txt */,
+				4D3EA2E4277799D400CC8BDB /* Lato-BoldItalic.ttf */,
+				4D3EA2E5277799D400CC8BDB /* Lato-Light.ttf */,
+				4D3EA2E6277799D400CC8BDB /* Lato-ThinItalic.ttf */,
+				4D3EA2F327779A9400CC8BDB /* Lato-Medium.ttf */,
+				4D00D1C027779E1300F403DE /* Lato-Semibold.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
 		};
 		4D74CA4C276EC619004E27EB /* TVC */ = {
 			isa = PBXGroup;
 			children = (
-				4D74CA4D276EC637004E27EB /* HIstoryTVC.swift */,
-				4D74CA4E276EC637004E27EB /* HIstoryTVC.xib */,
+				4D74CA4D276EC637004E27EB /* TripHistoryTVC.swift */,
+				4D74CA4E276EC637004E27EB /* TripHistoryTVC.xib */,
 			);
 			path = TVC;
 			sourceTree = "<group>";
@@ -137,7 +145,7 @@
 				4DA9CB9B276C2A2800EB8C61 /* Taxi */,
 				4DA9CB9A276C2A2800EB8C61 /* Products */,
 				0328C8EFE5E9D1178B72AA48 /* Pods */,
-				D335B02C35628D4E43FC9753 /* Frameworks */,
+				4161A0B841B783F776CCF2D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -154,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA9CB9C276C2A2800EB8C61 /* AppDelegate.swift */,
+				4D3EA2DB277799D400CC8BDB /* Lato */,
 				4DA9CBB7276C3D2E00EB8C61 /* Hepler */,
 				4DA9CBB4276C2A9600EB8C61 /* Model */,
 				4DA9CBB5276C2AA000EB8C61 /* Views */,
@@ -169,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				4D4EC8B5276D1FEA0002F83F /* LocationDM.swift */,
-				4D4EC8C1276D2FE10002F83F /* AddressDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,22 +209,12 @@
 		4DA9CBB7276C3D2E00EB8C61 /* Hepler */ = {
 			isa = PBXGroup;
 			children = (
-				4D4EC89A276D124B0002F83F /* Font */,
 				4D4EC8B1276D1C650002F83F /* HighlightButton.swift */,
 				4D4EC8BF276D2C610002F83F /* Constant.swift */,
 				4DA9CBB8276C3D4000EB8C61 /* Extension.swift */,
-				4D4EC8BD276D2AFA0002F83F /* Google.swift */,
 				4D4EC8B9276D27E80002F83F /* LocationManager.swift */,
 			);
 			path = Hepler;
-			sourceTree = "<group>";
-		};
-		D335B02C35628D4E43FC9753 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7BE113B22868AC00D0CB478B /* Pods_Taxi.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,12 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA9CBAD276C2A2A00EB8C61 /* Build configuration list for PBXNativeTarget "Taxi" */;
 			buildPhases = (
-				70F88530A5CD74DA864C27B6 /* [CP] Check Pods Manifest.lock */,
+				8FFCE824B2FB1DAF6CCF6D0F /* [CP] Check Pods Manifest.lock */,
 				4DA9CB95276C2A2800EB8C61 /* Sources */,
 				4DA9CB96276C2A2800EB8C61 /* Frameworks */,
 				4DA9CB97276C2A2800EB8C61 /* Resources */,
-				3F4F1F384B3C019D777B66EC /* [CP] Copy Pods Resources */,
-				2202CD1BC5A6D26762764087 /* [CP] Embed Pods Frameworks */,
+				77BB4557CAA86384AEC2D72E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,48 +277,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4EC8A6276D125A0002F83F /* Lato-BlackItalic.ttf in Resources */,
+				4D3EA2F0277799D400CC8BDB /* Lato-Light.ttf in Resources */,
+				4D3EA2F1277799D400CC8BDB /* Lato-ThinItalic.ttf in Resources */,
+				4D3EA2EE277799D400CC8BDB /* OFL.txt in Resources */,
+				4D3EA2EA277799D400CC8BDB /* Lato-Bold.ttf in Resources */,
+				4D3EA2F527779A9400CC8BDB /* Lato-Medium.ttf in Resources */,
 				4DA9CBB3276C2A9000EB8C61 /* MainVC.xib in Resources */,
+				4D3EA2EF277799D400CC8BDB /* Lato-BoldItalic.ttf in Resources */,
+				4D3EA2ED277799D400CC8BDB /* Lato-BlackItalic.ttf in Resources */,
 				4D74CA54276F2BFA004E27EB /* TripDetailVC.xib in Resources */,
-				4D4EC8A7276D125A0002F83F /* Lato-Regular.ttf in Resources */,
-				4D4EC8AE276D125A0002F83F /* Lato-Black.ttf in Resources */,
 				4DFA23A32773662E00B01D2F /* TripDetailChildVC.xib in Resources */,
-				4D4EC8A8276D125A0002F83F /* Lato-Light.ttf in Resources */,
+				4D3EA2EB277799D400CC8BDB /* Lato-Black.ttf in Resources */,
 				4DA9CBA9276C2A2A00EB8C61 /* LaunchScreen.storyboard in Resources */,
-				4D4EC8A9276D125A0002F83F /* Lato-BoldItalic.ttf in Resources */,
 				4DA9CBA6276C2A2A00EB8C61 /* Assets.xcassets in Resources */,
-				4D4EC8B0276D125A0002F83F /* Lato-Thin.ttf in Resources */,
-				4D4EC8AC276D125A0002F83F /* Lato-ThinItalic.ttf in Resources */,
-				4DDAB27727756A30004ADF2C /* OFL.txt in Resources */,
-				4D4EC8AB276D125A0002F83F /* Lato-Italic.ttf in Resources */,
-				4D4EC8AA276D125A0002F83F /* Lato-Bold.ttf in Resources */,
 				4D74CA49276E744B004E27EB /* SideBarVC.xib in Resources */,
-				4D74CA50276EC637004E27EB /* HIstoryTVC.xib in Resources */,
-				4D4EC8AF276D125A0002F83F /* Lato-LightItalic.ttf in Resources */,
+				4D3EA2E7277799D400CC8BDB /* Lato-Italic.ttf in Resources */,
+				4D3EA2E9277799D400CC8BDB /* Lato-Thin.ttf in Resources */,
+				4D3EA2EC277799D400CC8BDB /* Lato-Regular.ttf in Resources */,
+				4D3EA2E8277799D400CC8BDB /* Lato-LightItalic.ttf in Resources */,
+				4D74CA50276EC637004E27EB /* TripHistoryTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2202CD1BC5A6D26762764087 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F4F1F384B3C019D777B66EC /* [CP] Copy Pods Resources */ = {
+		77BB4557CAA86384AEC2D72E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +319,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taxi/Pods-Taxi-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70F88530A5CD74DA864C27B6 /* [CP] Check Pods Manifest.lock */ = {
+		8FFCE824B2FB1DAF6CCF6D0F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,9 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D74CA53276F2BFA004E27EB /* TripDetailVC.swift in Sources */,
-				4D4EC8C2276D2FE10002F83F /* AddressDM.swift in Sources */,
 				4D4EC8B2276D1C650002F83F /* HighlightButton.swift in Sources */,
-				4D74CA4F276EC637004E27EB /* HIstoryTVC.swift in Sources */,
+				4D74CA4F276EC637004E27EB /* TripHistoryTVC.swift in Sources */,
 				4DFA23A22773662E00B01D2F /* TripDetailChildVC.swift in Sources */,
 				4D4EC8C0276D2C620002F83F /* Constant.swift in Sources */,
 				4D4EC8BC276D28280002F83F /* MainVC.swift in Sources */,
@@ -379,7 +359,6 @@
 				4D4EC8BA276D27E80002F83F /* LocationManager.swift in Sources */,
 				4D4EC8B6276D1FEA0002F83F /* LocationDM.swift in Sources */,
 				4D74CA4B276EC4B3004E27EB /* TripHistoryVC.swift in Sources */,
-				4D4EC8BE276D2AFA0002F83F /* Google.swift in Sources */,
 				4DA9CB9D276C2A2800EB8C61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,7 +495,7 @@
 		};
 		4DA9CBAE276C2A2A00EB8C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EBE4965A814BBB807D32C8 /* Pods-Taxi.debug.xcconfig */;
+			baseConfigurationReference = 56098BA7ADBA5871DF622AAD /* Pods-Taxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -551,7 +530,7 @@
 		};
 		4DA9CBAF276C2A2A00EB8C61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13EA2A09A9AD0D1F86F50E42 /* Pods-Taxi.release.xcconfig */;
+			baseConfigurationReference = 3A9C5436C6FC9103088317E6 /* Pods-Taxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

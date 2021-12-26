@@ -10,15 +10,15 @@ import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-//API_KEY
-//AIzaSyCgYQnSjbPQuC6f8vcu6HPNXOa_0GksKEk
     
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        GMSServices.provideAPIKey("AIzaSyDUDLDmbFMrTxpVErn7H0GHrpF9TZXamas")
+        GMSServices.provideAPIKey(Constant.map_key)
         
+        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "left_arrow")
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "left_arrow")
         
         window = UIWindow()
         if #available(iOS 13.0, *) {
@@ -36,4 +36,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

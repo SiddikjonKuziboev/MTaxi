@@ -13,6 +13,66 @@ protocol TripDetailChildVCDelegate {
 
 class TripDetailChildVC: UIViewController {
     
+    @IBOutlet weak var deleteDataBtn: UIButton! {
+        didSet {
+            deleteDataBtn.titleLabel?.font = UIFont.init(name: "Lato-Bold", size: 17)
+        }
+    }
+    
+    @IBOutlet var semi14: [UILabel]!
+    
+    @IBOutlet weak var lblTrips: UILabel!{
+        didSet {
+            lblTrips.font = UIFont.init(name: "Lato-Semibold", size: 14)
+        }
+    }
+    @IBOutlet weak var lblRating: UILabel!{
+        didSet {
+            lblRating.font = UIFont.init(name: "Lato-Semibold", size: 14)
+        }
+    }
+    
+    @IBOutlet weak var lblDriverName: UILabel!{
+        didSet {
+            lblDriverName.font = UIFont.init(name: "Lato-Bold", size: 18)
+        }
+    }
+    
+    @IBOutlet  var black20: [UILabel]!{
+        didSet {
+            for i in black20 {
+                i.font = UIFont.init(name: "Lato-Black", size: 20)
+            }
+        }
+    }
+    
+    @IBOutlet var medium14: [UILabel]!{
+        didSet {
+            for i in medium14 {
+                i.font = UIFont.init(name: "Lato-Medium", size: 14)
+            }
+        }
+    }
+    
+    @IBOutlet var semi12: [UILabel]!{
+        didSet {
+            for i in semi12 {
+                i.font = UIFont.init(name: "Lato-Semibold", size: 12)
+            }
+        }
+    }
+    
+    @IBOutlet var bold14: [UILabel]!{
+        didSet {
+            for i in bold14 {
+                i.font = UIFont.init(name: "Lato-Bold", size: 14)
+            }
+        }
+    }
+    
+    
+    
+    
     @IBOutlet weak var arrowBtn: UIButton!
     
     @IBOutlet weak var containerView: UIView!
@@ -65,9 +125,11 @@ extension TripDetailChildVC {
     
     enum Constant {
         
-        static var fullViewPosition: CGFloat = 80
+        static var fullViewPosition: CGFloat = 30
+        
         static var bottomPosition = UIScreen.main.bounds.height + 30
-        static var partialViewPosition: CGFloat = UIScreen.main.bounds.height-276
+        
+        static var partialViewPosition: CGFloat = UIScreen.main.bounds.height-270
         
     }
     

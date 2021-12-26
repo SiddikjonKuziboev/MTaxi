@@ -1,6 +1,6 @@
 //
 //  SideBarVC.swift
-//  ComfortOil
+//  Taxi
 //
 //  Created by Kuziboev Siddikjon on 9/7/21.
 //
@@ -8,12 +8,24 @@
 import UIKit
 
 class SideBarVC: UIViewController {
-    @IBOutlet weak var favoriteAddressBtn: HighlightButton!
     
-    @IBOutlet weak var paymentTypeBtn: UIButton!
-    @IBOutlet weak var historyBtn: HighlightButton!
+    @IBOutlet weak var myTtripsBtn: HighlightButton!{
+        didSet {
+            myTtripsBtn.titleLabel?.font = UIFont.init(name: "Lato-Bold", size: 14)
+        }
+    }
     
-    @IBOutlet weak var orderHisBtn: UIButton!
+    @IBOutlet weak var paymentTypeBtn: HighlightButton!{
+        didSet {
+            paymentTypeBtn.titleLabel?.font = UIFont.init(name: "Lato-Bold", size: 14)
+        }
+    }
+        
+    @IBOutlet weak var favoriteAddressesBtn: HighlightButton!{
+        didSet {
+            favoriteAddressesBtn.titleLabel?.font = UIFont.init(name: "Lato-Bold", size: 14)
+        }
+    }
     
     @IBOutlet weak var dismissBtn: UIButton!
     
@@ -26,9 +38,17 @@ class SideBarVC: UIViewController {
     
     @IBOutlet weak var personImage: UIImageView!
     
-    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblName: UILabel! {
+        didSet {
+            lblName.font = UIFont.init(name: "Lato-Bold", size: 18)
+        }
+    }
     
-    @IBOutlet weak var lblPhoneNum: UILabel!
+    @IBOutlet weak var lblPhoneNum: UILabel! {
+        didSet {
+            lblPhoneNum.font = UIFont.init(name: "Lato-Medium", size: 14)
+        }
+    }
     
     
     
@@ -45,25 +65,22 @@ class SideBarVC: UIViewController {
 
     }
     
-  
-    
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+
         UIView.animate(withDuration: 0.3) {
             self.conView.transform = .identity
             self.dismissBtn.alpha = 1
-            
         }
-
-        navigationController?.navigationBar.isHidden = true
-
     }
     
-    
- 
-    @IBAction func historyBtnPressed(_ sender: Any) {
+    @IBAction func myTripsBtnPressed(_ sender: Any) {
         let vc = TripHistoryVC()
         navigationController?.pushViewController(vc, animated: true)
     }
+    
+
     
     @IBAction func dismisBtnPressd(_ sender: Any) {
         UIView.animate(withDuration: 0.3) {

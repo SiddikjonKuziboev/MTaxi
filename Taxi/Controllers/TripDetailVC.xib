@@ -22,36 +22,35 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4b-LC-Du3" customClass="GMSMapView">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P17-AS-3aG">
-                            <rect key="frame" x="16" y="16" width="36" height="36"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="36" id="sse-IY-8Ji"/>
-                                <constraint firstAttribute="width" secondItem="P17-AS-3aG" secondAttribute="height" id="wsz-f2-jdo"/>
-                            </constraints>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" image="left_arrow"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                    <integer key="value" value="18"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
-                        </button>
-                    </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstItem="P17-AS-3aG" firstAttribute="top" secondItem="M4b-LC-Du3" secondAttribute="top" constant="16" id="N5e-yA-56l"/>
-                        <constraint firstItem="P17-AS-3aG" firstAttribute="leading" secondItem="M4b-LC-Du3" secondAttribute="leading" constant="16" id="U7l-Vn-kpO"/>
-                        <constraint firstItem="P17-AS-3aG" firstAttribute="width" secondItem="P17-AS-3aG" secondAttribute="height" id="aJc-ib-5Tb"/>
-                    </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P17-AS-3aG">
+                    <rect key="frame" x="16" y="60" width="36" height="36"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="sse-IY-8Ji"/>
+                        <constraint firstAttribute="width" secondItem="P17-AS-3aG" secondAttribute="height" id="wsz-f2-jdo"/>
+                    </constraints>
+                    <color key="tintColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="left_arrow"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="backBtnPressed:" destination="-1" eventType="touchUpInside" id="1nx-PU-wuA"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="M4b-LC-Du3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QEW-SD-Bno"/>
+                <constraint firstItem="P17-AS-3aG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="Tjb-61-7kQ"/>
                 <constraint firstAttribute="bottom" secondItem="M4b-LC-Du3" secondAttribute="bottom" id="X7U-WE-Q6c"/>
+                <constraint firstItem="P17-AS-3aG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cvo-k2-76V"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="M4b-LC-Du3" secondAttribute="trailing" id="kKK-4v-xoz"/>
                 <constraint firstItem="M4b-LC-Du3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qxM-tH-T4n"/>
             </constraints>

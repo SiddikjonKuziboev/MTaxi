@@ -40,22 +40,28 @@ class TripHistoryVC: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
     }
+    
     func setUpNavigationBar() {
-        navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.isHidden = false
-        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.prefersLargeTitles = false
         navigationController?.navigationBar.topItem?.title = ""
         navigationController?.navigationBar.tintColor = .black
+        let backItem = UIBarButtonItem(image: UIImage(named: "left_arrow"), style: .done, target: self, action: #selector(backButtonTapped))
+           navigationItem.backBarButtonItem = backItem
+       
         
-        self.navigationController?.navigationBar.titleTextAttributes =
-        [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1),
-         NSAttributedString.Key.font: UIFont.init(name: "Lato-Bold", size: 20) ?? 18]
-        navigationController?.navigationBar.largeTitleTextAttributes =
-        [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1),
-         NSAttributedString.Key.font: UIFont.init(name: "Lato-Bold", size: 28) ?? 26]
+        let navigatiol_label = UILabel(frame: CGRect(x: view.frame.width/8, y: 7, width: 250, height: 25))
+        navigatiol_label.text = "Мои поездки"
+        navigatiol_label.textAlignment = .left
+        navigatiol_label.textColor = #colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1)
+        navigatiol_label.font = UIFont.init(name: "Lato-Black", size: 24)
+        navigationController?.navigationBar.addSubview(navigatiol_label)
+        print(view.frame.width/8,444)
         
+    }
+    
+    @objc func backButtonTapped() {
         
-        title = "Мои поездки"
     }
     
 }
@@ -74,7 +80,7 @@ extension TripHistoryVC: UITableViewDelegate, UITableViewDataSource {
         
         
         
-        tableView.register(HIstoryTVC.nib(), forCellReuseIdentifier: HIstoryTVC.identifier)
+        tableView.register(TripHistoryTVC.nib(), forCellReuseIdentifier: TripHistoryTVC.identifier)
         
         tableView.delegate  = self
         tableView.dataSource = self
@@ -97,7 +103,7 @@ extension TripHistoryVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: HIstoryTVC.identifier, for: indexPath)as! HIstoryTVC
+        let cell = tableView.dequeueReusableCell(withIdentifier: TripHistoryTVC.identifier, for: indexPath)as! TripHistoryTVC
         cell.carImage.image = UIImage(named: images[indexPath.row])
         cell.selectionStyle = .none
         return cell

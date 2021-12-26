@@ -8,7 +8,6 @@
 import UIKit
 
 struct LocationDM {
-    
     var lon: Double
     var lat: Double
     var course: Double
