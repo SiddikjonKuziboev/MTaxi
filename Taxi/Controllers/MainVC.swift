@@ -48,8 +48,6 @@ class MainVC: UIViewController {
     @IBOutlet weak var mapView: GMSMapView!
     
     @IBOutlet weak var pin: UIImageView!
-
-
     
     let manager = LocationManager()
 

@@ -24,8 +24,8 @@ public class LocationManager: NSObject {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        locationManager.pausesLocationUpdatesAutomatically = true
-        updateUserCurrentLocation()
+        locationManager.pausesLocationUpdatesAutomatically = false
+
     }
     
     
