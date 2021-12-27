@@ -8,5 +8,5 @@
 import Foundation
 
 enum Constant {
-    static let map_key = "AIzaSyDUDLDmbFMrTxpVErn7H0GHrpF9TZXamas"
+    static let map_key = "your_map_key👈"
 }
