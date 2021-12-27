@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+#warning("put your key")
 enum Constant {
-    static let map_key = "your_map_key👈"
+    static let map_key = 
 }
